@@ -22,6 +22,7 @@
 //     return false;
 //   }
 // };
+//ex.2 solution 2
 
 // function isEven(n) {
 //   if (n === 0) return true;
@@ -29,7 +30,11 @@
 //   else if (n < 0) return isEven(-n);
 //   else return isEven(n - 2);
 // }
+//
+// ex.2 solution 3
 
+// let isEven = x => x%2===0? true:false;
+//
 // console.log(isEven(50));
 // console.log(isEven(75));
 // console.log(isEven(-2));
